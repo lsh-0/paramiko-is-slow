@@ -8,6 +8,10 @@ This proves it.
 * Virtualenv for Python2
 * Python3
 
+You'll also need to be able to ssh to 127.0.0.1 with your current username.
+
+You may need to add your `id_rsa.pub` pubkey to your `./ssh/authorized_keys` file.
+
 ## Usage
 
     $ ./install.sh
