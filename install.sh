@@ -10,5 +10,6 @@ pip install aaargh paramiko
 deactivate
 
 source venv3/bin/activate
-pip install aaargh paramiko
+pip install aaargh # paramiko
+pip install git+https://github.com/dw/paramiko
 deactivate
